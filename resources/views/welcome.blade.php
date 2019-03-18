@@ -8,7 +8,6 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-s">
 
         <!-- Styles -->
         <style>
@@ -78,7 +77,7 @@ s">
 
             <div class="content">
                 <div class="title m-b-md">
-                    AYTANA
+                    <img src="logo.png"/>
                 </div>
 
                 
