@@ -102,7 +102,7 @@
                         <div class="col-xs-3 col-sm-3 col-md-3">
                             <div class="form-group">
                                 <strong>Numero de Formato:</strong>
-                                <input type="text" name="fua_NumFormato" id="fua_NumFormato" class="form-control input-lg" style="color: red;" onchange="javascript:enableBtnGuardar()" autocomplete="off">
+                                <input type="text" name="fua_NumFormato" id="fua_NumFormato" class="form-control input-lg" style="color: red;" onchange="javascript:enableBtnGuardar()" autocomplete="off" maxlength="7">
                                 <small>SOLO el número en ROJO. Ejm: <span style="color: red">1007267</span></small>
                             </div>
                         </div>

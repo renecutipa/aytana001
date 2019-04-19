@@ -26,7 +26,7 @@
                                 <th width="1%">Nro</th>
                                 <th width="10%">Numero</th>
                                 <th width="50%">Atendido</th>
-                                <th width="30%">Usuario</th>
+                                <th width="30%">Usuarios</th>
                                 <th width="9px"></th>
                             </tr>
                            @foreach ($fuas as $fua)

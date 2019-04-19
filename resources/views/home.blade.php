@@ -11,7 +11,7 @@
                     <div class="container">
                         <div class="row">
                             <form class="form-inline">
-                                <input name="q" class="form-control input-lg" type="text">
+                                <input name="q" class="form-control input-lg" type="text" autocomplete="off">
                                 <button type="submit" class="btn btn-primary btn-lg"> <i class="fa fa-search"></i> Buscar</button>
                             </form>
                         </div>
@@ -62,12 +62,10 @@
         <div class="modal-content">
             <div class="modal-header modal-header-primary primary">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">historial</h4>
+                <h4 class="modal-title" id="myModalLabel">Historial de Atenciones</h4>
             </div>
             <div class="modal-body">
                 
-                ...
-
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

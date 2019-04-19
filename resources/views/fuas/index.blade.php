@@ -25,8 +25,8 @@
                                 <th width="1%">Nro</th>
                                 <th width="10%">Numero</th>
                                 <th width="50%">Atendido</th>
-                                <th width="30%">Usuario</th>
-                                <th width="9px"></th>
+                                <th width="25%">Usuario</th>
+                                <th width="5px"></th>
                             </tr>
                             @foreach ($fuas as $fua)
                             <tr>
@@ -34,7 +34,8 @@
                                 <td>{{ $fua->fua_NumFormato }}</td>
                                 <td>{{ $fua->afi_Dni }} - {{$fua->afi_ApePaterno}} {{$fua->afi_ApeMaterno}}, {{$fua->afi_Nombres}} {{$fua->afi_SegNombre}} </td>
                                 <td>{{ $fua->name }} {{$fua->lastname}}</td>
-                                <td><a href="/fuas/{{$fua->id}}/edit" class="btn btn-success">Abrir</a></td>
+                                <td><a href="/fuas/{{$fua->id}}/edit" class="btn btn-xs btn-success">Abrir</a>
+                                    <a href="/fuas/{{$fua->id}}/anular" class="btn btn-xs btn-danger">Anular</a></td>
                             </tr>
                             @endforeach
                             
