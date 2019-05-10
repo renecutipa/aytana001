@@ -103,14 +103,14 @@
                 <form action="{{ route('fuas.update', $fua->id) }}" method="POST" enctype="multipart/form-data" autocomplete="off">
                     {{ method_field('PUT') }}
                     <div class="row">
-                        <div class="col-xs-3 col-sm-3 col-md-3">
+                        <div class="col-xs-2 col-sm-2 col-md-2">
                             <div class="form-group">
                                 <strong>Numero de Formato:</strong>
                                 <input type="text" name="fua_NumFormato" id="fua_NumFormato" class="form-control input-lg" style="color: red;" value="{{$fua->fua_NumFormato}}"disabled>
-                                <small>SOLO el número en ROJO. Ejm: <span style="color: red">1007267</span></small>
+                                <small>SOLO el número en ROJO.</small>
                             </div>
                         </div>
-                        <!--div class="col-xs-3 col-sm-3 col-md-3">
+                        <div class="col-xs-3 col-sm-3 col-md-3">
                             <div class="form-group">
                                 <strong>Personal:</strong>
                                 <select name="fua_profesional" class="form-control" @if($fua->estado == 2) disabled @endif>
@@ -126,8 +126,8 @@
                                 </select>
                                 <small>Profesional que figurara en el FUA</small>
                             </div>
-                        </div-->
-                        <div class="col-xs-7 col-sm-7 col-md-7">
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-5">
                             <div class="form-group">
                                 <strong>Codigo Prestacional:</strong>
                                 <select name="fua_CodigoPrestacional" class="form-control input-lg" onchange="javascript:checkCP();" id="fua_CodigoPrestacional"  @if($fua->estado == 2) disabled @endif>

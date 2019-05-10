@@ -115,7 +115,7 @@ class FUAController extends Controller
         if($fua->fua_peso > 0 && $fua->fua_talla > 0){
             $fua->fua_imc = $fua->fua_peso / ($fua->fua_talla * $fua->fua_talla);
         }
-        $fua->fua_profesional = \Auth::user()->id;
+        $fua->fua_profesional = $request->fua_profesional;
        
         $fua->save();
 
